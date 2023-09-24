@@ -1,0 +1,43 @@
+[
+    {
+      "Nome": "Cerveja",
+      "Descrição": "Uma lata ou garrafa de cerveja de marca comum pode variar de R$ 4,00 a R$ 8,00.",
+      "Preço": "4.00 - 8.00"
+    },
+    {
+      "Nome": "Vinho",
+      "Descrição": "Uma garrafa de vinho de qualidade média pode custar de R$ 30,00 a R$ 60,00. Vinhos mais finos podem variar de R$ 60,00 a R$ 150,00 ou mais.",
+      "Preço": "30.00 - 150.00"
+    },
+    {
+      "Nome": "Whisky",
+      "Descrição": "Uma garrafa de uísque de qualidade média pode custar entre R$ 80,00 e R$ 150,00, enquanto uísques premium podem chegar a R$ 300,00 ou mais.",
+      "Preço": "80.00 - 300.00"
+    },
+    {
+      "Nome": "Vodka",
+      "Descrição": "Uma garrafa de vodka de qualidade média pode variar de R$ 25,00 a R$ 60,00. Marcas mais premium podem ser mais caras.",
+      "Preço": "25.00 - 60.00"
+    },
+    {
+      "Nome": "Rum",
+      "Descrição": "O preço de uma garrafa de rum pode variar de R$ 30,00 a R$ 80,00, dependendo da marca e do envelhecimento.",
+      "Preço": "30.00 - 80.00"
+    },
+    {
+      "Nome": "Tequila",
+      "Descrição": "Tequilas de qualidade média podem custar entre R$ 40,00 e R$ 80,00 por garrafa. Tequilas premium podem ser mais caras.",
+      "Preço": "40.00 - 80.00"
+    },
+    {
+      "Nome": "Gin",
+      "Descrição": "Uma garrafa de gin pode variar de R$ 30,00 a R$ 70,00, dependendo da marca e da qualidade.",
+      "Preço": "30.00 - 70.00"
+    },
+    {
+      "Nome": "Licor",
+      "Descrição": "O preço de licores varia amplamente, mas uma garrafa de licor de sabor médio pode custar de R$ 20,00 a R$ 50,00.",
+      "Preço": "20.00 - 50.00"
+    }
+  ]
+  

@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;}
+
+#container {
+display: flex;
+width: 100%;
+align-items: center;
+background-color: #465E8C;
+padding: 10px;
+position: relative;
+z-index: 1;
+}
+
+#logo {
+        width: 33%;
+}
+#div-input-header {
+    width: 33%;
+    align-items: center;
+}
+#div-input-header button{
+    width: 2.5rem;
+    background-color: #0a1394;
+    height: 1.83rem;
+    cursor: pointer;
+    border: none;
+}
+#div-input-header input{
+    width: 70%;
+    padding: 5px;
+}
+#div-list-header {
+    width: 33%;
+}
+#div-list-header ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+#categorias {
+    cursor: pointer;
+}
