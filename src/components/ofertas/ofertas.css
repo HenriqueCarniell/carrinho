@@ -4,16 +4,13 @@
 
 }
 #ofertas-containers div:first-child{
-    border: 1px solid black;
     width: 30%;
 }
 #ofertas-containers div{
-    border: 1px solid black;
     width: 23%;
     display: grid;
     align-items: center;
 }
 hr {
-    border: 1px solid gray;
     width: 99%;
 }

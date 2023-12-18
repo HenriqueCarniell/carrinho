@@ -8,7 +8,6 @@ function Ofertas({}) {
       </div>
       <div>
         <img src="https://winecom.vteximg.com.br/arquivos/ids/156842-1000-1000/JW-Red-Label---1.0L-x-12---SC.png?v=637971312136900000" height="120px"></img>
-        <hr/>
         <p>Whisky</p>
       </div>
       <div>

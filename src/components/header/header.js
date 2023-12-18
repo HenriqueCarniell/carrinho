@@ -4,18 +4,10 @@ import { AiOutlineArrowDown } from "react-icons/ai";
 import { RiAccountCircleFill } from 'react-icons/ri';
 import { useEffect, useState } from "react";
 import Categorias from "./categorias/categorias";
-import bebidas from "./bebidas.json";
-import Ofertas from "../ofertas/ofertas";
 
 function Header() {
   // props
   const [open, setOpen] = useState(false);
-  const [obj, setObj] = useState([]);
-
-  useEffect(() => {
-    setObj(bebidas)
-    console.log(bebidas)
-  },[])
 
   //funções
   let HandleChangeOpen = () => {

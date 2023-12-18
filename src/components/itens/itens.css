@@ -1,6 +1,27 @@
 #itens-content {
     display: flex;
+    align-items: center;
 }
 #itens-title {
     width: 20%;
+}
+
+#btn-add-carrinho {
+    display: flex;
+    align-items: center;
+    margin-left: 1.5rem;
+    width: 13rem;
+}
+
+#div-add-remove {
+    display: grid;
+    margin-left: 1rem;
+}
+
+#div-add-remove button{
+    font-size: 13px;
+}
+
+#div-add-remove button:first-child {
+    margin-bottom: 1rem;
 }

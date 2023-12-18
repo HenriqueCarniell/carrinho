@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import reportWebVitals from './reportWebVitals';
-import {BrowserRouter, Routes, Route} from 'react-router-dom'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Header from './components/header/header';
 import Ofertas from './components/ofertas/ofertas';
 import Itens from './components/itens/itens';
@@ -9,15 +9,9 @@ import Itens from './components/itens/itens';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<>
-          <Header/>
-          <Ofertas/>
-          <Itens/>
-        </>}/>
-      </Routes>
-    </BrowserRouter>
+    <Header />
+    <Ofertas />
+    <Itens />
   </React.StrictMode>
 );
 
