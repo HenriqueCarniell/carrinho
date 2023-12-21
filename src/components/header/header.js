@@ -6,7 +6,7 @@ import { useEffect, useState } from "react";
 import Categorias from "./categorias/categorias";
 
 function Header() {
-  // props
+  // States
   const [open, setOpen] = useState(false);
 
   //funções
@@ -55,7 +55,10 @@ function Header() {
           <div id="entre">
             <li><i><RiAccountCircleFill/></i>Entre</li>
           </div>
-          <li>Carrinho</li>
+          <button>
+            
+            <a href="/carrinho">Carrinho</a>
+          </button>
         </ul>
       </div>
     </div>

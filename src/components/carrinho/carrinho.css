@@ -1,0 +1,24 @@
+#container-titulo-carrinho {
+    display: flex;
+    justify-content: center;
+    padding: 3rem;
+}
+
+#container-itens {
+    border: 1px solid #949494;
+    width: 25%;
+}
+#image-gim {
+    display: flex;
+    justify-content: center;
+}
+#quantidade {
+    font-size: 16px;
+    margin-left: 0.7rem;
+}
+#div-preco-quantidade {
+    display: flex;
+}
+#image-gim img{
+    height: 12rem;
+}

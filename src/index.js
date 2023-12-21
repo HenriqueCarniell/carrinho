@@ -5,13 +5,27 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Header from './components/header/header';
 import Ofertas from './components/ofertas/ofertas';
 import Itens from './components/itens/itens';
+import Carrinho from './components/carrinho/carrinho';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Header />
-    <Ofertas />
-    <Itens />
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={
+          <div>
+            <Header />
+            <Ofertas />
+            <Itens />
+          </div>} />
+        <Route path='/carrinho' element={
+          <div>
+            <Header />
+            <Carrinho />
+          </div>
+        } />
+      </Routes>
+    </BrowserRouter>
   </React.StrictMode>
 );
 

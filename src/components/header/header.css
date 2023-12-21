@@ -18,12 +18,13 @@ z-index: 1;
 }
 #div-input-header {
     width: 33%;
+    display: flex;
     align-items: center;
 }
 #div-input-header button{
     width: 2.5rem;
     background-color: #0a1394;
-    height: 1.83rem;
+    height: 2.4rem;
     cursor: pointer;
     border: none;
 }
